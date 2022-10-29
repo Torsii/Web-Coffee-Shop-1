@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  position: relative;
+  line-height: 29px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease-out 0s;
+}
+
+button {
+  cursor: pointer;
+}
+
+*:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  font-family: "Jost", sans-serif;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+span {
+  font-family: "Jost", sans-serif;
+}
+
+button:focus {
+  outline: none;
+}
+
+a {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  font-family: "Jost", sans-serif;
+}
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+table {
+  width: 100%;
+}
+
+p, li, span {
+  color: #a7a7a7;
+  margin-bottom: 0;
+}
