@@ -1,0 +1,9 @@
+.section-border {
+    width: 100vw;
+    border: 1px solid #32323D;
+}
+
+.section_space {
+    width: 100vw;
+    height: 161px;
+}

@@ -1,7 +1,32 @@
-header {
-    width: 76vw;
+.header-container {
+    max-width: 1406px;
     height: 149px;
     margin: auto;
     display: grid;
-    grid-template-columns: 42% auto 42%;
+    grid-template-columns: 42.378% 16.951% 30.856% 10.669% ;
+    grid-template-rows: 149px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.header-container__nav{
+    display: contents;
+}
+
+.header-container__ul{
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    align-self: center;
+}
+
+.header-container__img-logo {
+    justify-self: center;
+    align-self: center;
+}
+
+.header-container__img-icon {
+    width:19px;
+    height: 19px;
 }

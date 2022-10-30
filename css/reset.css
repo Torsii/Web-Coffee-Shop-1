@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow:hidden;
 }
 
 body {
@@ -19,15 +20,12 @@ img {
   transition: all 0.3s ease-out 0s;
 }
 
-button {
-  cursor: pointer;
-}
-
 *:focus {
   outline: none;
 }
 
 button {
+  cursor: pointer;
   border: none;
   font-family: "Jost", sans-serif;
   -webkit-transition: 0.3s;
@@ -48,10 +46,12 @@ a {
   -o-transition: 0.3s;
   transition: 0.3s;
   font-family: "Jost", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  display: inherit;
 }
 a:hover {
-  text-decoration: none;
-  color: #000;
+  color: #c7a17a;
 }
 
 table {
@@ -61,4 +61,11 @@ table {
 p, li, span {
   color: #a7a7a7;
   margin-bottom: 0;
+  display: inherit;
 }
+
+ul, ol {
+  list-style: none;
+}
+
+

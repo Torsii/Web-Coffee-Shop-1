@@ -6,60 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Shop</title>
     <link rel="stylesheet" href="css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Header-->
-    <header>
-        <div>
-            <nav>
-                <ul>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>MENU</li>
-                    <li>RESERVATION</li>
-                </ul>
-            </nav>
-         </div>
+    <header class="header-container">
+        <nav class="header-container__nav">
+            <ul class="header-container__ul">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">RESERVATION</a></li>
+            </ul>
+        </nav>
 
-        <img src="src/icons/logo.png" alt="">
-        <div>
-            <div>
-                <nav>
-                    <ul>
-                        <li>PAGES</li>
-                        <li>SHOP</li>
-                        <li>CONTACT</li>
-                    </ul>
-                </nav>
-            </div>
-            <div>
-                <ul>
-                    <li><a href=""><img src="src/icons/search.png" alt=""></a></li>
-                    <li><a href=""><img src="src/icons/more.png" alt=""></a></li>
-                    <li><a href=""><img src="src/icons/shopping-basket.png" alt=""></a></li>
-                </ul>
-            </div>
-        </div>
+        <img src="src/icons/logo.png" alt="" class="header-container__img-logo">
+        <nav class="header-container__nav">
+            <ul class="header-container__ul">
+                <li><a href="#">PAGES</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+            
+        <ul class="header-container__ul">
+            <li><a href=""><img src="src/icons/search.png" class="header-container__img-icon" alt=""></a></li>
+            <li><a href=""><img src="src/icons/more.png" class="header-container__img-icon" alt=""></a></li>
+            <li><a href=""><img src="src/icons/shopping-basket.png" class="header-container__img-icon" alt=""></a></li>
+        </ul>
+            
     </header>
-    
+    <span class="section-border"></span>
     <main>
         <!--SECTION 0-->  
-<<<<<<< HEAD
-        <section>
-            <div>
-                <h1>ROSTED COFFEE FOR YOU</h1>
-                <p>The coffee is brewed by first roasting the green coffee beans over hot coals in a brazier. given an opportunity to sample.</p>
-                <button>TESTY COFFEE</button><button>READ MORE</button>
-                <ul>
-                    <li><img src="src/icons/facebook.png" alt="">FACEBOOK</li>
-                    <li><img src="src/icons/twitter.png" alt="">TWITTER</li>
-                    <li><img src="src/icons/youtube.png" alt="">YOUTUBE</li>
-                </ul>
-            </div>
-            <div>
-                <button><img src="src/icons/play.png" alt=""></button>
-                <p>PLAY VIDEO</p>
-=======
         <section class="Hero">
             <div class="Hero__container">
                 <h1 class="Hero__container--tittle">ROSTED COFFEE FOR YOU</h1>
@@ -74,7 +55,6 @@
             <div class="Hero__video-container">
                 <button class="Hero__video-container--button"><img src="src/icons/play.png" alt="Icon start"></button>
                 <p class="Hero__video-container--p">PLAY VIDEO</p>
->>>>>>> origin/Section0_css
             </div>
         </section>
         <!--SECTION 1-->
