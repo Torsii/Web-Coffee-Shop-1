@@ -7,6 +7,7 @@
     grid-template-rows: 149px;
     box-sizing: border-box;
     justify-content: center;
+    
 }
 .header-container__nav{
     display: contents;
