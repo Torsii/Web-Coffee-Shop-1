@@ -1,12 +1,71 @@
 .Hero__container{
     background:url("/src/images/hero-img-3-1.jpeg") no-repeat center center;
+    background-size: cover;
     width:100vw;
     height:462px;
 }
 .Hero__container--tittle{
+    display:flex;
     color:white;
-    font-size: 70px;
-    font-family:"Bebas Neue , cursive";
-    font-weight: 400;
-    line-height: 97px;
+    font-size: 80px;
+    line-height: 80px;
+    font-family:"bebas Neue", cursive;
+    letter-spacing: 2px;
+    padding-left: 92px;
+    padding-top: 30px;
+    margin-bottom:0;
+}
+.Hero__container--p{
+    display:flex;
+    font-size: 18px;
+    padding-left: 92px;
+    justify-content: flex-start;
+    padding-top: -60px;
+    margin-top: 0;
+}
+.Hero__container--button{
+    margin:40px 25px 0 92px;
+    background-color:#C7A17A;
+    border:1px solid #C7A17A;
+}
+.Hero__container--button-read{
+    background-color: transparent;
+    border: 1px solid rgb(161, 157, 157);
+}
+.Hero__container--button , .Hero__container--button-read{
+    display:inline-block;
+    padding: 15px 25px 15px 25px;
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+button.Hero__container--button-read:hover{
+    background-color: #C7A17A;
+}
+button.Hero__container--button:hover{
+    background-color: #32323D;
+    border: 1px solid black;
+}
+.Hero__container--list{
+    margin-top:60px;
+    margin-left:52px;
+    display:flex;
+    justify-content: flex-start;
+    
+}
+.Hero__container--list-socialmedia{
+   padding-right:40px;
+}
+.Hero__container--list-img{
+    padding-right:5px;
+}
+.Hero__video--container-button{
+    display:flex;
+    justify-content: flex-end;
+}
+.Hero__video--container-img{
+    justify-content: flex-end;
 }
