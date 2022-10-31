@@ -7,3 +7,36 @@
     width: 100vw;
     height: 161px;
 }
+
+.card {
+    display: inline-block;
+}
+
+.card__content {
+    width: 349.333px;
+    padding: 25px 40px 0 40px;
+
+}
+.card__title {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFF;
+    letter-spacing: 0.16px;
+    margin:5px auto 5px auto;
+
+}
+.card__p {
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    opacity: 0.8;
+}
+.card__p--orange {
+    color: #C7A17A;
+    margin-top: 0;
+    font-size: 15px;
+    margin-bottom: 0px;
+    opacity: 1;
+}
+
