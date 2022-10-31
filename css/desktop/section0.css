@@ -1,0 +1,12 @@
+.Hero__container{
+    background:url("/src/images/hero-img-3-1.jpeg") no-repeat center center;
+    width:100vw;
+    height:462px;
+}
+.Hero__container--tittle{
+    color:white;
+    font-size: 70px;
+    font-family:"Bebas Neue , cursive";
+    font-weight: 400;
+    line-height: 97px;
+}
