@@ -1,0 +1,49 @@
+.history{
+    display:flex;
+    justify-content: space-evenly;
+    margin:150px 0 150px 0;
+}
+.history__cafe--img{
+    height:530px;
+    width:47vw;
+}
+.history__container--tittle{
+    color:white;
+    font-size: 55px;
+    font-family:"bebas Neue", cursive;
+    line-height: 57px;
+    margin:30px 0 30px 75px;
+    font-weight: lighter;
+}
+.history__cafe{
+    width:47vw;
+    margin-right:0;
+    background-size: cover;
+}
+.history__container{
+    width:47vw;
+    height:528px;
+    max-height:548px;
+    max-width:47vw;
+    background-color: #13131A;
+    border: 1px solid #32323D;
+}
+.history__container--p{
+    background-color: #C7A17A;
+    width:98px;
+    height:22px;
+    color:white;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:80px 0 0 75px;
+    padding:1.5px 13px 1.5px 13px;
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.histoy__container--text{
+    font-size: 18px;
+    margin: 0 0 35px 75px;
+}
