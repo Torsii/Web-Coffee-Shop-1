@@ -1,8 +1,15 @@
-.Hero__container{
+.Hero{
     background:url("/src/images/hero-img-3-1.jpeg") no-repeat center center;
     background-size: cover;
-    width:100vw;
-    height:462px;
+    margin-bottom: 120px;
+    position:relative;
+    border-bottom: 0.5px solid rgba(48, 47, 47, 0.3);
+    background-color: transparent;
+    height:650px;
+}
+.Hero__container{
+    height:550px;
+    margin-right: 0; 
 }
 .Hero__container--tittle{
     display:flex;
@@ -11,26 +18,28 @@
     line-height: 80px;
     font-family:"bebas Neue", cursive;
     letter-spacing: 2px;
-    padding-left: 92px;
-    padding-top: 30px;
+    padding-left: 70px;
+    padding-top: 60px;
     margin-bottom:0;
+    text-align: justify;
 }
 .Hero__container--p{
     display:flex;
     font-size: 18px;
-    padding-left: 92px;
+    padding-left: 70px;
     justify-content: flex-start;
-    padding-top: -60px;
+    padding-top:20px;
     margin-top: 0;
 }
 .Hero__container--button{
-    margin:40px 25px 0 92px;
+    margin:40px 25px 0 70px;
     background-color:#C7A17A;
     border:1px solid #C7A17A;
 }
 .Hero__container--button-read{
     background-color: transparent;
     border: 1px solid rgb(161, 157, 157);
+    margin-top: 40px;
 }
 .Hero__container--button , .Hero__container--button-read{
     display:inline-block;
@@ -40,7 +49,7 @@
     font-weight: 500;
     letter-spacing: 2px;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 12px;   
 }
 button.Hero__container--button-read:hover{
     background-color: #C7A17A;
@@ -50,11 +59,12 @@ button.Hero__container--button:hover{
     border: 1px solid black;
 }
 .Hero__container--list{
-    margin-top:60px;
-    margin-left:52px;
+    margin-top:80px;
+    margin-left:24px;
+    margin-right:0;
     display:flex;
     justify-content: flex-start;
-    
+    width:50%;
 }
 .Hero__container--list-socialmedia{
    padding-right:40px;
@@ -62,10 +72,4 @@ button.Hero__container--button:hover{
 .Hero__container--list-img{
     padding-right:5px;
 }
-.Hero__video--container-button{
-    display:flex;
-    justify-content: flex-end;
-}
-.Hero__video--container-img{
-    justify-content: flex-end;
-}
+
