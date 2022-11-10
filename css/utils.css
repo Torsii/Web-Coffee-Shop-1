@@ -29,8 +29,7 @@
 .card__p {
     font-family: "Jost", sans-serif;
     font-size: 18px;
-    color: #FFF;
-    opacity: 0.8;
+    color: rgba(225, 225, 225, 80);
 }
 .card__p--orange {
     color: #C7A17A;
