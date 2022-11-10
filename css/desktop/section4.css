@@ -1,0 +1,54 @@
+.discover__container{
+    display:flex;
+    margin-top:100px;
+    justify-content: space-evenly;
+    width:100vw;
+    height:500px;
+    max-height: 500px;
+}
+.discover__container--info{
+    width:45vw;
+    margin-left:200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.discover__kettle-img{
+    width:40vw;
+    margin-left:200px;
+    margin-right:100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.discover__container--tittle{
+    color:white;
+    font-family: "Bebas neue", cursive;
+    font-weight: lighter;
+    font-size: 50px;
+}
+.discover__container--text{
+    font-size:18px;
+}
+.discover__container--button{
+    margin-top:40px;
+    background-color: #C7A17A;
+    color:white;
+    width:180px;
+    height:50px;
+    border-radius: 5px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.discover__container--button:hover{
+    background-color: #292932;
+}
+.discover__kettle--button-up , .discover__kettle--button-down{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: white;
+    display:flex;
+}
+
+

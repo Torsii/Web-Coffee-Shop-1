@@ -67,5 +67,7 @@
     color:#C7A17A;
 }
 .popular-menu__list--img{
-    padding:-10px;
+    margin-left:-40px;
+    z-index:2;
+
 }
